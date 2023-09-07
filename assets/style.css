@@ -1,0 +1,38 @@
+.hero-section {
+  height: 85vh;
+  background-image: url("./img/hero-img.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-brand {
+  font-family: "Lora", serif;
+  color: #fff;
+}
+
+.navbar-nav .nav-item {
+  padding-left: 20px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #fff;
+}
+
+/* Set the border color */
+         
+.navbar-toggler {
+    border-color: #fff;
+}
+/* Setting the stroke to green using rgb values (0, 128, 0) */
+ 
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-nav .nav-item {
+    padding-left: 0;
+  }
+}
