@@ -11,6 +11,7 @@
   /* Colours */
   --black: #000;
   --white: #fff;
+  --grey: #808080;
   --primary-main: #0c356a;
   --secondary-blue: #279eff;
 }
@@ -20,9 +21,18 @@ body {
   font-family: var(--body-text);
 }
 
+/* Modifying Bootstrap Classes */
+
+.btn-primary {
+  width: 100%;
+  border-radius: 2rem;
+  background-color: var(--secondary-blue);
+}
+
+
 .hero-wrapper {
   height: 85vh;
-  background-image: url("./img/hero-img.jpg");
+  background-image: url("../img/hero-img.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -57,17 +67,32 @@ body {
 }
 
 .tagline {
-  color: #fff;
-  text-shadow: 0 4px 4px #000;
+  color: var(--white);
+  text-shadow: 0 4px 4px var(--black);
+  letter-spacing: 5px;
+  word-spacing: 7px;
 }
 
 .booking-section {
   width: 100%;
   height: 6rem;
-  background-color: red;
+  background-color: var(--white);
   border-radius: 50px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   position: relative;
   top: 50px;
+}
+
+.booking-icon {
+  color: var(--grey);
+}
+
+.booking-text {
+  font-size: 1.25rem;
+}
+
+.dropdown {
+  border-right: 1px solid var(--grey);
 }
 
 @media screen and (max-width: 768px) {
