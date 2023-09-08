@@ -1,3 +1,22 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Nunito:wght@400;600&family=Outfit&display=swap");
+
+/* Root Element*/
+:root {
+  /* Fonts */
+  --brand-name: "Lora", serif;
+  --heading-text: "Nunito", sans-serif;
+  --body-text: "Outfit", sans-serif;
+
+  /* Colours */
+  --black: #000;
+  --white: #fff;
+  --primary-main: #0c356a;
+  --secondary-blue: #279eff;
+}
+
+/* End of Root Element */
+
 .hero-section {
   height: 85vh;
   background-image: url("./img/hero-img.jpg");
@@ -7,8 +26,8 @@
 }
 
 .navbar-brand {
-  font-family: "Lora", serif;
-  color: #fff;
+  font-family: var(--brand-name);
+  color: var(--white);
 }
 
 .navbar-nav .nav-item {
@@ -16,29 +35,27 @@
 }
 
 .navbar-nav .nav-item .nav-link {
-  color: #fff;
+  color: var(--white);
 }
 
 /* Set the border color */
-         
 .navbar-toggler {
-    border-color: #fff;
+  border-color: var(--white);
 }
+
 /* Setting the stroke to green using rgb values (0, 128, 0) */
- 
 .custom-toggler .navbar-toggler-icon {
-    background-image: url(
-"data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 .tagline-wrapper {
-    width: 100%;
-    height: 79vh;
+  width: 100%;
+  height: 79vh;
 }
 
 .tagline-wrapper > h1 {
-    color: #fff;
-    text-shadow: 4px 4px 4px #000;
+  color: #fff;
+  text-shadow: 4px 4px 4px #000;
 }
 
 @media screen and (max-width: 768px) {
