@@ -14,15 +14,22 @@
   --primary-main: #0c356a;
   --secondary-blue: #279eff;
 }
-
 /* End of Root Element */
 
-.hero-section {
+body {
+  font-family: var(--body-text);
+}
+
+.hero-wrapper {
   height: 85vh;
   background-image: url("./img/hero-img.jpg");
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: space-between;
 }
 
 .navbar-brand {
@@ -31,10 +38,11 @@
 }
 
 .navbar-nav .nav-item {
-  padding-left: 20px;
+  padding-left: 30px;
 }
 
 .navbar-nav .nav-item .nav-link {
+  font-family: var(--heading-text);
   color: var(--white);
 }
 
@@ -48,18 +56,24 @@
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
-.tagline-wrapper {
-  width: 100%;
-  height: 79vh;
+.tagline {
+  color: #fff;
+  text-shadow: 0 4px 4px #000;
 }
 
-.tagline-wrapper > h1 {
-  color: #fff;
-  text-shadow: 4px 4px 4px #000;
+.booking-section {
+  width: 100%;
+  height: 6rem;
+  background-color: red;
+  border-radius: 50px;
+  position: relative;
+  top: 50px;
 }
 
 @media screen and (max-width: 768px) {
   .navbar-nav .nav-item {
     padding-left: 0;
+    display: flex;
+    justify-content: end;
   }
 }
