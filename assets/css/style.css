@@ -22,13 +22,12 @@ body {
 }
 
 /* Modifying Bootstrap Classes */
-
 .btn-primary {
   width: 100%;
   border-radius: 2rem;
   background-color: var(--secondary-blue);
 }
-
+/* End of Modifying Bootstrap Classes */
 
 .hero-wrapper {
   height: 85vh;
@@ -91,7 +90,7 @@ body {
   font-size: 1.25rem;
 }
 
-.dropdown {
+.booking-form-input {
   border-right: 1px solid var(--grey);
 }
 

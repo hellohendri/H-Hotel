@@ -80,83 +80,51 @@
       <!-- Booking Section -->
       <div class="booking-wrapper">
         <div class="container">
-          <div class="booking-section row">
-            <div class="col-4 align-self-center px-0">
-              <div class="dropdown px-2">
-                <button
-                  class="btn dropdown-toggle"
-                  type="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  <i class="fa-solid fa-user fa-2xl booking-icon pe-3"></i>
-                  <span class="booking-text"
-                    >2 Adults - 0 Children - 1 Room</span
-                  >
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </div>
+          <form action="#" class="booking-section row px-2">
+            <div class="col-2 align-self-center px-3">
+              <label class="form-label" for="specificSizeSelect">
+                Guest
+              </label>
+              <select class="form-select" id="specificSizeSelect">
+                <option selected>2</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
             </div>
-            <div class="col-3 align-self-center px-0">
-              <div class="dropdown px-2">
-                <button
-                  class="btn dropdown-toggle"
-                  type="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  <i
-                    class="fa-solid fa-calendar-days fa-2xl booking-icon pe-3"
-                  ></i>
-                  <span class="booking-text">Check-in Dates</span>
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </div>
+
+            <div class="col-2 align-self-center px-3">
+              <label class="form-label" for="specificSizeSelect">Rooms</label>
+              <select class="form-select" id="specificSizeSelect">
+                <option selected>1</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+              </select>
             </div>
-            <div class="col-3 align-self-center px-0">
-              <div class="dropdown px-2">
-                <button
-                  class="btn dropdown-toggle"
-                  type="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  <i
-                    class="fa-solid fa-calendar-days fa-2xl booking-icon pe-3"
-                  ></i>
-                  <span class="booking-text">Check-out Dates</span>
-                </button>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </div>
+
+            <div class="col-3 align-self-center px-3">
+              <label class="form-label" for="checkInDate">
+                Check-in Dates</label
+              >
+              <input type="date" class="form-control" id="checkInDate" />
             </div>
-            <div class="col-2 align-self-center px-2 pe-3">
-              <a href="#" class="btn btn-primary py-3">
-                <i class="fa-solid fa-magnifying-glass fa-2xl pe-3"></i>
-                <span class="booking-text">Search</span>
-              </a>
+
+            <div class="col-3 align-self-center px-3">
+              <label class="form-label" for="checkOutDate"
+                >Check-out Dates</label
+              >
+              <input type="date" class="form-control" id="checkOutDate" />
             </div>
-          </div>
+
+            <div class="col-2 align-self-center px-3">
+              <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+            </div>
+          </form>
         </div>
       </div>
       <!-- End of Booking Section -->
+
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
