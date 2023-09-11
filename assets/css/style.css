@@ -161,6 +161,7 @@ p {
 
 .card-img-top {
   border-radius: 20px 20px 0 0;
+  height: 276px;
 }
 
 .card-title {
@@ -200,6 +201,19 @@ p {
 
 .room-facility-wrapper * {
   color: var(--green);
+}
+
+.gallery-wrapper {
+  height: 100vh;
+}
+
+.carousel-item {
+  height: 700px;
+}
+
+.img-gallery {
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 @media screen and (max-width: 768px) {
