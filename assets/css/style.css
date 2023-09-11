@@ -216,6 +216,37 @@ p {
   border-radius: 20px;
 }
 
+.footer-wrapper {
+  width: 100vw;
+  background-color: var(--primary-main);
+}
+
+.footer-wrapper > * {
+  color: var(--white);
+}
+
+.brand-name {
+  font-family: var(--brand-name);
+  font-size: 2rem;
+}
+
+.copyright-text {
+  font-size: 1rem;
+}
+
+.footer-header {
+  font-size: 1.5rem;
+  margin-top: .5rem;
+}
+
+div.footer-wrapper.py-3 > div > div > div > ul {
+  padding-left: 0;
+}
+
+div.footer-wrapper.py-3 > div > div > div > ul > li {
+  list-style-type: none;
+}
+
 @media screen and (max-width: 768px) {
   .navbar-nav .nav-item {
     padding-left: 0;
