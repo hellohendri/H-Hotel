@@ -20,6 +20,10 @@
 }
 /* End of Root Element */
 
+* {
+  border: 1px solid red;
+}
+
 body {
   font-family: var(--body-text);
 }
@@ -37,11 +41,16 @@ p {
 /* End of Modifying Bootstrap Classes */
 
 .hero-wrapper {
-  height: 85vh;
-  background-image: url("../img/hero-img.jpg");
-  background-position: top;
+  height: 100vh;
+}
+
+.hero-content {
+  background-image: url(../img/hero-img.jpg);
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  width: 100%;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -221,7 +230,6 @@ p {
 }
 
 .footer-wrapper {
-  width: 100vw;
   background-color: var(--primary-main);
 }
 
