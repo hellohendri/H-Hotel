@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Nunito:wght@400;600&family=Outfit&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Nunito:wght@400;600;700&family=Outfit&display=swap');
 
 /* Root Element*/
 :root {
@@ -19,6 +19,10 @@
 
 body {
   font-family: var(--body-text);
+}
+
+p {
+  font-size: 1.25rem;
 }
 
 /* Modifying Bootstrap Classes */
@@ -68,7 +72,8 @@ body {
 .tagline {
   color: var(--white);
   text-shadow: 0 4px 4px var(--black);
-  letter-spacing: 5px;
+  font-size: 6rem;
+  letter-spacing: .75rem;
   word-spacing: 7px;
 }
 
@@ -92,6 +97,57 @@ body {
 
 .booking-form-input {
   border-right: 1px solid var(--grey);
+}
+
+.about-wrapper {
+  height: 100vh;
+  margin-top: 15vh;
+  padding-top: 1.5rem;
+}
+
+.header {
+  font-family: 'Nunito', sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  letter-spacing: .25rem;
+  font-weight: bold;
+}
+
+.blue-text {
+  color: var(--primary-main);
+}
+
+.img-about {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.sub-header {
+  font-size: 1.5rem;
+  letter-spacing: .15rem;
+  margin-bottom: 2rem;
+}
+
+.facility-wrapper {
+  background-color: var(--primary-main);
+  width: 100%;
+  border-radius: 20px;
+  margin-top: 1rem;
+}
+
+.facility-wrapper > * {
+  color: var(--white);
+}
+
+.facility-icon {
+  font-size: 4rem;
+}
+
+.room-wrapper {
+  height: 100vh;
+  padding-top: 1.5rem;
 }
 
 @media screen and (max-width: 768px) {
