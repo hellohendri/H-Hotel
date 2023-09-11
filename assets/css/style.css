@@ -20,10 +20,6 @@
 }
 /* End of Root Element */
 
-* {
-  border: 1px solid red;
-}
-
 body {
   font-family: var(--body-text);
 }
