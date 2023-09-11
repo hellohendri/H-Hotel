@@ -209,12 +209,14 @@ p {
   height: 100vh;
 }
 
-.carousel-item {
+.carousel-inner {
   height: 700px;
+  border-radius: 20px;
 }
 
 .img-gallery {
   object-fit: cover;
+  height: auto;
   border-radius: 20px;
 }
 
