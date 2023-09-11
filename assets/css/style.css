@@ -12,6 +12,9 @@
   --black: #000;
   --white: #fff;
   --grey: #808080;
+  --gold: #FF9736;
+  --green: #549315;
+  --secondary-grey: #3B3B3B;
   --primary-main: #0c356a;
   --secondary-blue: #279eff;
 }
@@ -148,6 +151,55 @@ p {
 .room-wrapper {
   height: 100vh;
   padding-top: 1.5rem;
+}
+
+.card {
+  border-radius: 20px;
+  height: 720px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.card-img-top {
+  border-radius: 20px 20px 0 0;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.room-rating-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.room-rating {
+  color: var(--secondary-grey);
+  margin-bottom: .25rem;
+}
+
+.fa-star {
+  color: var(--gold);
+}
+
+.room-facility-icon {
+  color: var(--grey);
+}
+
+.card-content {
+  height: 320px;
+  padding-bottom: 10px;
+}
+
+.room-price {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.room-facility-wrapper * {
+  color: var(--green);
 }
 
 @media screen and (max-width: 768px) {
