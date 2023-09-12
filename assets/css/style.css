@@ -1,5 +1,5 @@
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Nunito:wght@400;600;700&family=Outfit&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Nunito:wght@400;600;700&family=Outfit&display=swap");
 
 /* Root Element*/
 :root {
@@ -12,9 +12,9 @@
   --black: #000;
   --white: #fff;
   --grey: #808080;
-  --gold: #FF9736;
+  --gold: #ff9736;
   --green: #549315;
-  --secondary-grey: #3B3B3B;
+  --secondary-grey: #3b3b3b;
   --primary-main: #0c356a;
   --secondary-blue: #279eff;
 }
@@ -83,7 +83,7 @@ p {
   color: var(--white);
   text-shadow: 0 4px 4px var(--black);
   font-size: 6rem;
-  letter-spacing: .75rem;
+  letter-spacing: 0.75rem;
   word-spacing: 7px;
 }
 
@@ -110,14 +110,14 @@ p {
 }
 
 .about-wrapper {
-  height: 60vh;
+  height: 70vh;
 }
 
 .header {
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-size: 4rem;
   text-transform: uppercase;
-  letter-spacing: .25rem;
+  letter-spacing: 0.25rem;
   font-weight: bold;
 }
 
@@ -134,7 +134,7 @@ p {
 
 .sub-header {
   font-size: 1.5rem;
-  letter-spacing: .15rem;
+  letter-spacing: 0.15rem;
   margin-bottom: 2rem;
 }
 
@@ -183,7 +183,7 @@ p {
 
 .room-rating {
   color: var(--secondary-grey);
-  margin-bottom: .25rem;
+  margin-bottom: 0.25rem;
 }
 
 .fa-star {
@@ -242,7 +242,7 @@ p {
 
 .footer-header {
   font-size: 1.5rem;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
 }
 
 div.footer-wrapper.py-3 > div > div > div > ul {
@@ -251,6 +251,51 @@ div.footer-wrapper.py-3 > div > div > div > ul {
 
 div.footer-wrapper.py-3 > div > div > div > ul > li {
   list-style-type: none;
+}
+
+@media screen and (max-width: 1439px) {
+  p {
+    font-size: 1rem;
+  }
+
+  .tagline {
+    font-size: 4rem;
+  }
+
+  .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+  }
+
+  .header {
+    font-size: 3rem;
+  }
+
+  .sub-header {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0;
+  }
+
+  .facility-icon {
+    font-size: 2rem;
+  }
+
+  .about-wrapper {
+    height: 60vh;
+  }
+
+  .img-about {
+    height: 350px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+
+  .facility-header {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
 }
 
 @media screen and (max-width: 768px) {
