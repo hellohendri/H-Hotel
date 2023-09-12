@@ -292,7 +292,7 @@ div.footer-wrapper.py-3 > div > div > div > ul > li {
 
   .facility-header {
     font-size: 2rem;
-    margin-bottom: .25rem;
+    margin-bottom: 0.25rem;
   }
 
   .room-wrapper {
@@ -344,7 +344,7 @@ div.footer-wrapper.py-3 > div > div > div > ul > li {
     height: 0;
     padding-bottom: 75%; /* this sets carousel aspect ratio (4:1 here) */
   }
-  
+
   .carousel-item {
     position: absolute !important; /* Bootstrap is insistent */
     top: 0;
@@ -352,7 +352,7 @@ div.footer-wrapper.py-3 > div > div > div > ul > li {
     bottom: 0;
     left: 0;
   }
-  
+
   .carousel-item img {
     height: 100%; /* Bootstrap handles width already */
     object-fit: cover; /* or 'contain' if you want stretch instead of crop */
@@ -369,11 +369,11 @@ div.footer-wrapper.py-3 > div > div > div > ul > li {
   .hero-content {
     height: 75vh;
   }
-  
+
   .tagline {
     margin-top: 5rem;
     font-size: 3rem;
-    letter-spacing: .25rem;
+    letter-spacing: 0.25rem;
   }
 
   .booking-section {
@@ -396,5 +396,15 @@ div.footer-wrapper.py-3 > div > div > div > ul > li {
 
   .card {
     height: 685px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .booking-section {
+    top: 100px;
+  }
+
+  .about-wrapper {
+    margin-top: 3rem;
   }
 }
