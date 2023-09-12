@@ -309,7 +309,14 @@ div.footer-wrapper.py-3 > div > div > div > ul > li {
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1200px) {
+  .card {
+    height: 650px;
+  }
+
+  .card-content {
+    height: 375px;
+  }
 }
 
 @media screen and (max-width: 768px) {
