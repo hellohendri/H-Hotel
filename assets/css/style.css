@@ -110,7 +110,7 @@ p {
 }
 
 .about-wrapper {
-  height: 100vh;
+  height: 60vh;
 }
 
 .header {
@@ -141,8 +141,8 @@ p {
 .facility-wrapper {
   background-color: var(--primary-main);
   width: 100%;
+  height: 40vh;
   border-radius: 20px;
-  margin-top: 1rem;
 }
 
 .facility-wrapper > * {
