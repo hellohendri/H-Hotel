@@ -320,6 +320,10 @@ div.footer-wrapper.py-3 > div > div > div > ul > li {
 }
 
 @media screen and (max-width: 992px) {
+  .navbar-collapse {
+    display: flex;
+  }
+
   .btn-booking {
     font-size: 1rem;
   }
@@ -360,5 +364,25 @@ div.footer-wrapper.py-3 > div > div > div > ul > li {
     padding-left: 0;
     display: flex;
     justify-content: end;
+  }
+
+  .hero-content {
+    height: 75vh;
+  }
+  
+  .tagline {
+    margin-top: 5rem;
+    font-size: 3rem;
+    letter-spacing: .25rem;
+  }
+
+  .booking-section {
+    height: auto;
+    padding: 20px 0;
+    top: 125px;
+  }
+
+  .btn-booking {
+    margin-top: 1rem;
   }
 }
