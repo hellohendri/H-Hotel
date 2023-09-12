@@ -385,4 +385,16 @@ div.footer-wrapper.py-3 > div > div > div > ul > li {
   .btn-booking {
     margin-top: 1rem;
   }
+
+  .header {
+    font-size: 2.5rem;
+  }
+
+  .facility-header {
+    font-size: 2rem;
+  }
+
+  .card {
+    height: 685px;
+  }
 }
