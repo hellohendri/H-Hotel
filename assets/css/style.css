@@ -110,7 +110,7 @@ p {
 }
 
 .about-wrapper {
-  height: 70vh;
+  height: 60vh;
 }
 
 .header {
@@ -292,6 +292,20 @@ div.footer-wrapper.py-3 > div > div > div > ul > li {
 
   .facility-header {
     font-size: 2rem;
+    margin-bottom: .25rem;
+  }
+
+  .room-wrapper {
+    height: auto;
+    padding-top: 1.5rem;
+  }
+
+  .card {
+    height: 650px;
+  }
+
+  .gallery-wrapper {
+    height: auto;
   }
 }
 
