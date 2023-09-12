@@ -410,7 +410,7 @@ div.footer-wrapper.py-3 > div > div > div > ul > li {
   }
 
   .about-wrapper {
-    margin-top: 3rem;
+    margin-top: 0;
   }
 
   .facility-wrapper {
@@ -426,9 +426,5 @@ div.footer-wrapper.py-3 > div > div > div > ul > li {
 
   .booking-section {
     top: 50px;
-  }
-
-  .about-wrapper {
-    margin-top: 0;
   }
 }
