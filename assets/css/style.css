@@ -320,6 +320,10 @@ div.footer-wrapper.py-3 > div > div > div > ul > li {
 }
 
 @media screen and (max-width: 992px) {
+  .btn-booking {
+    font-size: 1rem;
+  }
+
   .about-wrapper {
     height: auto;
   }
